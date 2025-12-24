@@ -1,0 +1,1121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Transform your body and life with expert personal training. Get customized workout plans, nutrition guidance, and dedicated support to achieve your fitness goals." />
+    <title>ElitFit</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Tailwind CSS -->
+    <!-- <link href="https://unpkg.com/tailwindcss@1.9.6/dist/tailwind.min.css" rel="stylesheet"> -->
+    <!-- npx @tailwindcss/cli -i ./assets/css/style.css -o ./assets/css/output.css --watch -->
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <!-- Link to Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/output.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="nav" class="gsap-fade-up">
+        <div class="nav-container relative">
+            <a href="#hero" class="logo">
+                ELITE<span>PLUMB</span>
+            </a>
+            <ul class="nav-links hidden md:flex items-center justify-between" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#results">Results</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="btn get-btn">Book Session</a></li>
+            </ul>
+            <ul
+                class="nav-links mobile-menu flex md:hidden items-start justify-between absolute top-0 right-0 left-0 py-8 px-8">
+                <li><button class="md:hidden close-btn absolute top-5 right-0 mr-6"><img src="assets/img/close.svg"
+                            alt=""></button></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="btn get-btn">Book</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+    <!-- X -->
+
+    <!-- Hero -->
+    <section class="bg-[#f8f9fd]" id="hero">
+        <div class="max-w-7xl mx-auto px-4 py-10 md:py-20">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-10">
+                <div class="order-2 md:order-1 hero-content fade flex-1">
+                    <!-- Orange Glow -->
+                    <div class="absolute -top-32 -left-32 w-96 h-96 bg-[#ff6a00]/10 rounded-full blur-3xl"></div>
+                    <span
+                        class="inline-block px-4 py-1 rounded-full text-black border border-black text-sm md:text-md font-semibold capitalize mb-2.5">
+                        <span class="text-[#c2c1c1]">#</span> NO1 HAVC & PLUMBING SERVICES
+                    </span>
+                    <h2 class="gsap-fade-up">PLUMBING YOU CAN
+                        <span class="text-orange-500">TRUST.</span><br>AFFORDABLE SERVICE <span
+                            class="text-orange-500">FIXED.</span>
+                    </h2>
+                    <p>We're your local HVAC experts dedicated to keeping your family comfortable through every season.
+                        With same day service, honest pricing, and guaranteed results, you can trust us to handle all
+                        your.</p>
+                    <button
+                        class="relative inline-flex items-center justify-center px-8 py-3 rounded-full bg-linear-to-b from-[#eb6200] to-[#ff6a00] text-white font-semibold shadow-[0_4px_0_#d45500,0_10px_20px_rgba(0,0,0,0.28)] transition-all duration-150 hover:-translate-y-0.5 hover:shadow-[0_3px_0_#d45500,0_8px_16px_rgba(0,0,0,0.28)] active:translate-y-0.5 active:shadow-[0_1px_0_#d45500,0_4px_10px_rgba(0,0,0,0.35)] capitalize cursor-pointer">
+                        request services
+                    </button>
+                    <div class="max-w-7xl px-4 pt-5">
+                        <div class="grid grid-cols-3 text-left gap-5">
+                            <!-- Item -->
+                            <div class="py-6">
+                                <div class="text-3xl font-bold text-gray-900">4.5K+</div>
+                                <div class="mt-1 text-sm text-gray-500">Projects Done</div>
+                            </div>
+
+                            <!-- Item -->
+                            <div class="py-6">
+                                <div class="text-3xl font-bold text-gray-900">13K+</div>
+                                <div class="mt-1 text-sm text-gray-500">
+                                    Satisfied Customers
+                                </div>
+                            </div>
+
+                            <!-- Item -->
+                            <div class="py-6">
+                                <div class="text-3xl font-bold text-gray-900">10+</div>
+                                <div class="mt-1 text-sm text-gray-500">
+                                    Years of Experience
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-1 md:order-2 relative flex-1 flex justify-center">
+                    <!-- Blue Glow -->
+                    <div class="absolute bottom-0 right-0 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl"></div>
+                    <!-- Stroke -->
+                    <svg viewBox="0 0 100 140"
+                        class="absolute inset-0 w-full max-w-md aspect-5/7 pointer-events-none mx-auto z-0" fill="none">
+                        <path d="M60 25 L95 5 L95 20 L95 120 L20 135 L5 115 L5 10 Z" stroke="#ff6900"
+                            stroke-width="2" />
+                    </svg>
+
+                    <!-- Image -->
+                    <svg viewBox="0 0 100 140" class="w-full max-w-md aspect-5/7 mx-auto z-10">
+                        <defs>
+                            <clipPath id="imageShape">
+                                <path d="M30 5 L85 5 L95 20 L95 120 L20 135 L5 115 L5 20 Z" />
+                            </clipPath>
+                        </defs>
+
+                        <image href="assets/img/hero-m.png" width="100%" height="100%"
+                            preserveAspectRatio="xMidYMid slice" clip-path="url(#imageShape)" />
+                    </svg>
+                </div>
+
+                <!-- Random -->
+                <div class="z-0">
+                    <!-- Decorative icons -->
+                    <img src="assets/img/wrench.png"
+                        class="absolute top-20 md:top-30 left-16 md:left-1/6 w-10 opacity-20 animate-float" alt="" />
+                    <img src="assets/img/wrench.png"
+                        class="absolute bottom-20 md:bottom-30 right-10 md:right-1/5 w-10 opacity-20 animate-float"
+                        alt="" />
+
+                    <img src="assets/img/gear.png"
+                        class="absolute bottom-50 md:bottom-30 left-3/4 md:left-1/6 w-14 opacity-20 animate-float-slow"
+                        alt="" />
+                    <img src="assets/img/gear.png"
+                        class="absolute bottom-1/3 md:bottom-3/5 left-0 md:left-3/5 w-14 opacity-20 animate-float-slow"
+                        alt="" />
+
+                    <img src="assets/img/pipe.png"
+                        class="absolute top-2/4 md:top-44 right-30 md:right-1/4 w-12 opacity-20 animate-float" alt="" />
+                    <img src="assets/img/pipe.png"
+                        class="absolute top-1/4 md:top-2/4 right-5 md:right-1/2 w-12 opacity-20 animate-float" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- X -->
+
+    <!-- About Section -->
+    <section id="about" class="bg-white">
+        <div class="container">
+            <div class="flex flex-col gap-10">
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="/assets/img/about-m.webp" alt="Professional trainer" width="400" height="533"
+                            loading="lazy">
+                        <div class="about-badge">
+                            <div class="stat-value" data-count="9">0</div>
+                            <div class="label">YEARS</div>
+                        </div>
+                    </div>
+                    <div class="about-content fade">
+                        <span
+                            class="inline-block px-4 py-1 rounded-full bg-orange-500/10 text-orange-500 text-sm font-semibold capitalize mb-2">
+                            about
+                        </span>
+                        <h2>QUALITY PLUMBING IS OUR MISSION</h2>
+                        <p>With years of hands-on plumbing experience, we specialize in delivering reliable,
+                            long-lasting solutions for homes and businesses. Our approach combines modern tools, proven
+                            techniques, and industry best practices to fix problems right the first time.
+                        </p>
+                        <p>Whether it’s a leaking pipe, clogged drain, water heater issue, or a full installation, we’re
+                            here to handle it with professionalism, transparency, and dependable service from start to
+                            finish.
+                        </p>
+
+                        <div class="stats-grid">
+                            <div class="stat">
+                                <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="#FF6A00"
+                                    stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M12 6v6l4 2"></path>
+                                </svg>
+                                <div class="stat-value" data-count="11">0</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                            <div class="stat ">
+                                <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="#FF6A00"
+                                    stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                                <div class="stat-value" data-count="500">0</div>
+                                <div class="stat-label">Jobs Completed</div>
+                            </div>
+                            <div class="stat ">
+                                <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="#FF6A00"
+                                    stroke-width="2">
+                                    <circle cx="12" cy="8" r="7"></circle>
+                                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                                </svg>
+                                <div class="stat-value" data-count="15">0</div>
+                                <div class="stat-label">Licensed & Certified</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center text-left">
+                    <!-- About Image -->
+                    <div class="order-1 md:order-2 about-image grid grid-cols-2 gap-2 md:gap-4">
+                        <img src="/assets/img/about-f.webp" alt="Professional trainer" width="400" height="533"
+                            loading="lazy" decoding="async">
+                        <img src="/assets/img/hero.webp" alt="Professional trainer" width="400" height="533"
+                            loading="lazy" decoding="async">
+                        <img src="/assets/img/about-m.webp" alt="Professional trainer" width="400" height="533"
+                            loading="lazy" decoding="async">
+                        <img src="/assets/img/about-f.webp" alt="Professional trainer" width="400" height="533"
+                            loading="lazy" decoding="async">
+                    </div>
+                    <!-- About Content -->
+                    <div class="order-2 md:order-1 about-content fade">
+                        <span
+                            class="inline-block px-4 py-1 rounded-full bg-orange-500/10 text-orange-500 text-sm font-semibold capitalize mb-2">
+                            why choose us?
+                        </span>
+                        <h2>AOUR JOURNEY AND EXPERIENCE</h2>
+                        <p>With years of industry experience, we’ve built a reputation for dependable plumbing services
+                            backed by skill, honesty, and attention to detail. Every job is handled using proven methods
+                            and quality materials.
+                        </p>
+                        <p>From small residential repairs to larger commercial projects, we approach every job with the
+                            same commitment to quality, safety, and customer satisfaction.
+                        </p>
+                        <!-- Feature Item -->
+                        <div class="flex items-start gap-4">
+                            <!-- Icon -->
+                            <div class="shrink-0">
+                                <div class="w-12 h-10 flex items-start justify-center text-orange-500">
+                                    <!-- Lightning / Energy -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <!-- Text -->
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900 mb-1">
+                                    Fast and reliable
+                                </h4>
+                                <p>
+                                    Proin et convallis tincidunt tincidunt. Viverra ut
+                                    ullamcorp faucibus dictum. Integer in egestas volutpat.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Feature Item -->
+                        <div class="flex items-start gap-4">
+                            <!-- Icon -->
+                            <div class="shrink-0">
+                                <div class="w-12 h-10 flex items-start justify-center text-orange-500">
+                                    <!-- Dumbbell / Strength -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M4 15v-3m16 3v-3M7 18V6m10 12V6M2 12h20" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <!-- Text -->
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900 mb-1">
+                                    Long-Lasting Solutions
+                                </h4>
+                                <p>
+                                    Proin et convallis tincidunt tincidunt. Viverra ut
+                                    ullamcorp faucibus dictum. Integer in egestas volutpat.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Feature Item -->
+                        <div class="flex items-start gap-4">
+                            <!-- Icon -->
+                            <div class="shrink-0">
+                                <div class="w-12 h-10 flex items-start justify-center text-orange-500">
+                                    <!-- Heart / Endurance -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 116.364 6.364L12 21.364 4.318 12.682a4.5 4.5 0 010-6.364z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <!-- Text -->
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900 mb-1">
+                                    Safe & Clean Work
+                                </h4>
+                                <p>
+                                    Proin et convallis tincidunt tincidunt. Viverra ut
+                                    ullamcorp faucibus dictum. Integer in egestas volutpat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Random -->
+            <div class="z-0">
+                <!-- Decorative icons -->
+                <img src="assets/img/wrench.png"
+                    class="absolute top-20 md:top-30 left-16 md:left-1/6 w-10 opacity-20 animate-float" alt="" />
+
+                <img src="assets/img/gear.png"
+                    class="absolute bottom-50 md:bottom-30 left-3/4 md:left-1/6 w-14 opacity-20 animate-float-slow"
+                    alt="" />
+
+                <img src="assets/img/pipe.png"
+                    class="absolute top-2/4 md:top-44 right-30 md:right-1/4 w-12 opacity-20 animate-float" alt="" />
+            </div>
+        </div>
+    </section>
+    <!-- X -->
+
+    <!-- Services Section -->
+    <section id="services" class="banner">
+        <div class="container">
+            <div class="section-header fade">
+                <span
+                    class="inline-block px-8 py-2 rounded-full bg-orange-500/10 text-orange-500 text-sm font-semibold capitalize mb-2.5">
+                    services
+                </span>
+                <h2>COMPREHENSIVE PLUMBING SOLUTIONS</h2>
+                <p>Choose from a full range of professional plumbing services designed to solve problems quickly and
+                    keep your system running smoothly.
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="/assets/img/img1 (1).webp" width="640" height="360" alt="Personal Training"
+                            loading="lazy" decoding="async">
+                    </div>
+                    <div class="service-content">
+                        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M6.5 6.5m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                            <path d="M17.5 6.5m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                            <rect x="2" y="13" width="9" height="7" rx="1"></rect>
+                            <rect x="13" y="13" width="9" height="7" rx="1"></rect>
+                        </svg>
+                        <h3>Emergency Plumbing Repairs</h3>
+                        <p>Fast response for leaks, burst pipes, blockages, and urgent plumbing issues when you need
+                            help the most.</p>
+                        <button class="btn btn-outline">Learn More</button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="/assets/img/img1 (2).webp" width="640" height="360" alt="Group Classes" loading="lazy"
+                            decoding="async">
+                    </div>
+                    <div class="service-content">
+                        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        <h3>Residential Plumbing</h3>
+                        <p>Complete plumbing services for homes, including repairs, upgrades, and routine maintenance.
+                        </p>
+                        <button class="btn btn-outline">Learn More</button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="/assets/img/img1 (3).webp" width="640" height="360" alt="Online Coaching"
+                            loading="lazy" decoding="async">
+                    </div>
+                    <div class="service-content">
+                        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                        <h3>Commercial Plumbing</h3>
+                        <p>Reliable plumbing solutions for offices, shops, and commercial properties with minimal
+                            downtime.</p>
+                        <button class="btn btn-outline">Learn More</button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="/assets/img/img1 (4).webp" width="640" height="360" alt="Nutrition Planning"
+                            loading="lazy" decoding="async">
+                    </div>
+                    <div class="service-content">
+                        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M12 2a10 10 0 0 1 7.38 16.75"></path>
+                            <path d="M12 8v8"></path>
+                            <path d="M16 12H8"></path>
+                            <path d="m2.93 17.07 2.12-2.12"></path>
+                        </svg>
+                        <h3>Installations & Upgrades</h3>
+                        <p>Professional installation and replacement of pipes, fixtures, water heaters, and plumbing
+                            systems.</p>
+                        <button class="btn btn-outline">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- X -->
+
+    <!-- Swiper Classes Section -->
+    <section id="classes" class="py-20">
+        <div class="section-header fade">
+            <span
+                class="inline-block px-8 py-2 rounded-full bg-orange-500/10 text-orange-500 text-sm font-semibold mb-2.5 capitalize">
+                more services
+            </span>
+            <h2>OUR PLUMBING SERVICES</h2>
+            <p>Explore the plumbing solutions we provide to keep your home and business running smoothly.</p>
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <!-- Single Card -->
+                <div class="swiper-slide">
+                    <div class="group flex flex-col items-center justify-between shadow-lg rounded-lg">
+                        <div class="media">
+                            <img class="duration-300 linear" src="assets/img/img1 (4).webp"
+                                alt="Person lifting dumbbell" loading="eager" decoding="async">
+                        </div>
+                        <div class="flex flex-col items-start justify-between p-5 gap-3">
+                            <div class="text-sm font-bold">SERVICE</div>
+                            <h3 class="text-xl font-semibold">Leak Detection & Repair</h3>
+                            <p class="text-md font-medium text-gray-600"
+                                data-short="We quickly identify and repair leaks to prevent water damage, high bills, and long-term plumbing issues..."
+                                data-full="We quickly identify and repair leaks to prevent water damage, high bills, and long-term plumbing issues program. Also something need to be bothering you i know that because that's why why have clicked on read more.">
+                                We quickly identify and repair leaks to prevent water damage, high bills, and long-term
+                                plumbing issues...
+                            </p>
+                            <button class="cta" onclick="toggleServiceText(this)">read more »</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Card -->
+                <div class="swiper-slide">
+                    <div class="group flex flex-col items-center justify-between shadow-lg rounded-lg">
+                        <div class="media">
+                            <img class="duration-300 linear" src="assets/img/img1 (2).webp"
+                                alt="Person lifting dumbbell" loading="eager" decoding="async">
+                        </div>
+                        <div class="flex flex-col items-start justify-between p-5 gap-3">
+                            <div class="text-sm font-bold">SERVICE</div>
+                            <h3 class="text-xl font-semibold">Plumbing Technicque</h3>
+                            <p class="text-md font-medium text-gray-600"
+                                data-short="We quickly identify and repair leaks to prevent water damage, high bills, and long-term plumbing issues..."
+                                data-full="We quickly identify and repair leaks to prevent water damage, high bills, and long-term plumbing issues program. Also something need to be bothering you i know that because that's why why have clicked on read more.">
+                                We quickly identify and repair leaks to prevent water damage, high bills, and long-term
+                                plumbing issues...
+                            </p>
+                            <button class="cta" onclick="toggleServiceText(this)">read more »</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Card -->
+                <div class="swiper-slide">
+                    <div class="group flex flex-col items-center justify-between shadow-lg rounded-lg">
+                        <div class="media">
+                            <img class="duration-300 linear" src="assets/img/img1 (1).webp"
+                                alt="Person lifting dumbbell" loading="eager" decoding="async">
+                        </div>
+                        <div class="flex flex-col items-start justify-between p-5 gap-3">
+                            <div class="text-sm font-bold">SERVICE</div>
+                            <h3 class="text-xl font-semibold">Damage Control</h3>
+                            <p class="text-md font-medium text-gray-600"
+                                data-short="We quickly identify and repair leaks to prevent water damage, high bills, and long-term plumbing issues..."
+                                data-full="We quickly identify and repair leaks to prevent water damage, high bills, and long-term plumbing issues program. Also something need to be bothering you i know that because that's why why have clicked on read more.">
+                                We quickly identify and repair leaks to prevent water damage, high bills, and long-term
+                                plumbing issues...
+                            </p>
+                            <button class="cta" onclick="toggleServiceText(this)">read more »</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Card -->
+                <div class="swiper-slide">
+                    <div class="group flex flex-col items-center justify-between shadow-lg rounded-lg">
+                        <div class="media">
+                            <img class="duration-300 linear" src="assets/img/img1 (3).webp"
+                                alt="Person lifting dumbbell" loading="eager" decoding="async">
+                        </div>
+                        <div class="flex flex-col items-start justify-between p-5 gap-3">
+                            <div class="text-sm font-bold">SERVICE</div>
+                            <h3 class="text-xl font-semibold">Tried and Solved</h3>
+                            <p class="text-md font-medium text-gray-600"
+                                data-short="We quickly identify and repair leaks to prevent water damage, high bills, and long-term plumbing issues..."
+                                data-full="We quickly identify and repair leaks to prevent water damage, high bills, and long-term plumbing issues program. Also something need to be bothering you i know that because that's why why have clicked on read more.">
+                                We quickly identify and repair leaks to prevent water damage, high bills, and long-term
+                                plumbing issues...
+                            </p>
+                            <button class="cta" onclick="toggleServiceText(this)">read more »</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Card -->
+                <div class="swiper-slide">
+                    <div class="group flex flex-col items-center justify-between shadow-lg rounded-lg">
+                        <div class="media">
+                            <img class="duration-300 linear" src="assets/img/img1 (4).webp"
+                                alt="Person lifting dumbbell" loading="eager" decoding="async">
+                        </div>
+                        <div class="flex flex-col items-start justify-between p-5 gap-3">
+                            <div class="text-sm font-bold">SERVICE</div>
+                            <h3 class="text-xl font-semibold">Leak Detection & Repair</h3>
+                            <p class="text-md font-medium text-gray-600"
+                                data-short="We quickly identify and repair leaks to prevent water damage, high bills, and long-term plumbing issues..."
+                                data-full="We quickly identify and repair leaks to prevent water damage, high bills, and long-term plumbing issues program. Also something need to be bothering you i know that because that's why why have clicked on read more.">
+                                We quickly identify and repair leaks to prevent water damage, high bills, and long-term
+                                plumbing issues...
+                            </p>
+                            <button class="cta" onclick="toggleServiceText(this)">read more »</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Card -->
+                <div class="swiper-slide">
+                    <div class="group flex flex-col items-center justify-between shadow-lg rounded-lg">
+                        <div class="media">
+                            <img class="duration-300 linear" src="assets/img/img1 (2).webp"
+                                alt="Person lifting dumbbell" loading="eager" decoding="async">
+                        </div>
+                        <div class="flex flex-col items-start justify-between p-5 gap-3">
+                            <div class="text-sm font-bold">SERVICE</div>
+                            <h3 class="text-xl font-semibold">Leak Detection & Repair</h3>
+                            <p class="text-md font-medium text-gray-600"
+                                data-short="We quickly identify and repair leaks to prevent water damage, high bills, and long-term plumbing issues..."
+                                data-full="We quickly identify and repair leaks to prevent water damage, high bills, and long-term plumbing issues program. Also something need to be bothering you i know that because that's why why have clicked on read more.">
+                                We quickly identify and repair leaks to prevent water damage, high bills, and long-term
+                                plumbing issues...
+                            </p>
+                            <button class="cta" onclick="toggleServiceText(this)">read more »</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Card -->
+                <div class="swiper-slide">
+                    <div class="group flex flex-col items-center justify-between shadow-lg rounded-lg">
+                        <div class="media">
+                            <img class="duration-300 linear" src="assets/img/img1 (3).webp"
+                                alt="Person lifting dumbbell" loading="eager" decoding="async">
+                        </div>
+                        <div class="flex flex-col items-start justify-between p-5 gap-3">
+                            <div class="text-sm font-bold">SERVICE</div>
+                            <h3 class="text-xl font-semibold">Leak Detection & Repair</h3>
+                            <p class="text-md font-medium text-gray-600"
+                                data-short="We quickly identify and repair leaks to prevent water damage, high bills, and long-term plumbing issues..."
+                                data-full="We quickly identify and repair leaks to prevent water damage, high bills, and long-term plumbing issues program. Also something need to be bothering you i know that because that's why why have clicked on read more.">
+                                We quickly identify and repair leaks to prevent water damage, high bills, and long-term
+                                plumbing issues...
+                            </p>
+                            <button class="cta" onclick="toggleServiceText(this)">read more »</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination md:hidden"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <!-- X -->
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="banner">
+        <div class="container">
+            <div class="section-header fade">
+                <span
+                    class="inline-block px-8 py-2 rounded-full bg-orange-500/10 text-orange-500 text-sm font-semibold capitalize mb-2.5">
+                    pricing
+                </span>
+                <h2>TRANSPARENT PRICING</h2>
+                <p>Choose a service option that fits your needs and budget. No hidden fees—just honest pricing and
+                    professional workmanship.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card ">
+                    <h3>Basic Service</h3>
+                    <div class="pricing-price">
+                        <span class="amount">$99</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <p class="pricing-description">Ideal for minor plumbing issues and routine maintenance needs.</p>
+                    <button class="btn">Request Service</button>
+                    <ul class="pricing-features">
+                        <li>Basic inspection & diagnosis</li>
+                        <li>Minor leak or clog repair</li>
+                        <li>Email support</li>
+                        <li>Access to online services</li>
+                    </ul>
+                </div>
+                <div class="pricing-card featured ">
+                    <div class="pricing-badge">Most Popular</div>
+                    <h3>Standard Service</h3>
+                    <div class="pricing-price">
+                        <span class="amount">$199</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <p class="pricing-description">Our most popular option for common plumbing repairs and upgrades.</p>
+                    <button class="btn bg-white text-black border border-white!">Request Service</button>
+                    <ul class="pricing-features">
+                        <li>Comprehensive inspection & repair</li>
+                        <li>Drain cleaning or fixture repair</li>
+                        <li>Priority support (24/7)</li>
+                        <li>Progress tracking & analysis</li>
+                        <li>Problem prevention recommendations</li>
+                        <li>Supplement recommendations</li>
+                    </ul>
+                </div>
+                <div class="pricing-card ">
+                    <h3>Premium Service</h3>
+                    <div class="pricing-price">
+                        <span class="amount">$349</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <p class="pricing-description">Complete plumbing solutions for major repairs, upgrades, or
+                        commercial needs.</p>
+                    <button class="btn">Request Service</button>
+                    <ul class="pricing-features">
+                        <li>Full system inspection & repair</li>
+                        <li>Pipe replacement or installation</li>
+                        <li>VIP support & accountability</li>
+                        <li>Priority emergency support</li>
+                        <li>Unlimited group classes</li>
+                        <li>RDetailed issue assessment</li>
+                        <li>Competition prep (if desired)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- X -->
+
+    <!-- Testimonials Section -->
+    <section id="reviews" class="section-bg-white">
+        <div class="container">
+            <div class="section-header fade">
+                <span
+                    class="inline-block px-8 py-2 rounded-full bg-orange-500/10 text-orange-500 text-sm font-semibold capitalize mb-2.5">
+                    reviews
+                </span>
+                <h2>REAL PEOPLE. REAL RESULTS.</h2>
+                <p>See how our clients have transformed their bodies and lives with dedicated training and support.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card ">
+                    <svg class="quote-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"></path>
+                    </svg>
+                    <p class="testimonial-text">"Working with this trainer completely transformed my life. The
+                        personalized approach and constant support made all the difference. I finally achieved the body
+                        I always wanted."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SJ</div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p class="author-result">Lost 30 lbs in 4 months</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card ">
+                    <svg class="quote-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"></path>
+                    </svg>
+                    <p class="testimonial-text">"The structured training program and nutrition guidance helped me build
+                        muscle faster than I thought possible. My confidence has skyrocketed."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MC</div>
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p class="author-result">Gained 15 lbs of muscle</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card ">
+                    <svg class="quote-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"></path>
+                    </svg>
+                    <p class="testimonial-text">"From barely running a mile to completing a marathon in 6 months. The
+                        progressive training plan was challenging but achievable. I never thought I could do it!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ER</div>
+                        <div class="author-info">
+                            <h4>Emily Rodriguez</h4>
+                            <p class="author-result">Completed first marathon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Random -->
+            <div class="z-0">
+                <!-- Decorative icons -->
+                <img src="assets/img/wrench.png"
+                    class="absolute top-20 md:top-30 left-16 md:left-1/6 w-10 opacity-20 animate-float" alt="" />
+
+                <img src="assets/img/gear.png"
+                    class="absolute bottom-50 md:bottom-30 left-3/4 md:left-1/6 w-14 opacity-20 animate-float-slow"
+                    alt="" />
+
+                <img src="assets/img/pipe.png"
+                    class="absolute top-2/4 md:top-44 right-30 md:right-1/4 w-12 opacity-20 animate-float" alt="" />
+            </div>
+        </div>
+    </section>
+    <!-- X -->
+
+    <!-- CTA Banner Section -->
+    <section id="cta" class="cta-banner py-24 overflow-x-hidden fade">
+        <div class="mx-auto px-4">
+            <div class="mx-auto flex flex-col items-center justify-between gap-4 text-center">
+                <h2 class="text-white text-3xl sm:text-4xl md:text-5xl font-bold">
+                    NEED A PLUMBER NOW?
+                </h2>
+                <p class="text-white text-lg sm:text-xl md:text-[1.75rem] font-medium mb-6">
+                    Don’t wait for a small plumbing issue to turn into a costly disaster.
+                    Limited service slots available this month.
+                </p>
+                <a href="#contact"
+                    class="text-black bg-white px-5 md:px-8 py-6 rounded-lg text-lg font-semibold border-2 hover:bg-orange-500 hover:text-white transition duration-300">
+                    Request Plumbing Service →
+                </a>
+
+                <p class="mt-6 text-sm text-white/70">
+                    Only a few service slots remaining this month
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- X -->
+
+    <!-- FAQ Section -->
+    <section class="bg-[#f8f9fd] py-20">
+        <div class="max-w-3xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12 tracking-wide">
+                FREQUENTLY ASKED QUESTIONS
+            </h2>
+            <div class="space-y-4">
+                <!-- FAQ ITEM -->
+                <div class="faq-item bg-white rounded-lg shadow-sm">
+                    <button class="faq-btn w-full flex justify-between items-center px-6 py-5 text-left cursor-pointer">
+                        <span class="font-semibold text-lg">
+                            How do I reset my password?
+                        </span>
+                        <span class="faq-icon transition-transform duration-300 text-2xl">▾</span>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 px-6">
+                        <p class="pb-5 text-gray-600">
+                            You can reset your password by clicking the “Forgot Password” link on the login page and
+                            following the instructions sent to your email.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ ITEM -->
+                <div class="faq-item bg-white rounded-lg shadow-sm">
+                    <button class="faq-btn w-full flex justify-between items-center px-6 py-5 text-left cursor-pointer">
+                        <span class="font-semibold text-lg">
+                            How do the workouts work on the platform?
+                        </span>
+                        <span class="faq-icon transition-transform duration-300 text-2xl">▾</span>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 px-6">
+                        <p class="pb-5 text-gray-600">
+                            Workouts are guided video sessions designed to be followed at home or in the gym, with
+                            progress tracking and scheduling built in.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ ITEM -->
+                <div class="faq-item bg-white rounded-lg shadow-sm">
+                    <button class="faq-btn w-full flex justify-between items-center px-6 py-5 text-left cursor-pointer">
+                        <span class="font-semibold text-lg">
+                            What equipment will I need?
+                        </span>
+                        <span class="faq-icon transition-transform duration-300 text-2xl">▾</span>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 px-6">
+                        <p class="pb-5 text-gray-600">
+                            Most workouts require minimal equipment like dumbbells or resistance bands. Equipment
+                            requirements are listed before each workout.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ ITEM -->
+                <div class="faq-item bg-white rounded-lg shadow-sm">
+                    <button class="faq-btn w-full flex justify-between items-center px-6 py-5 text-left cursor-pointer">
+                        <span class="font-semibold text-lg">
+                            Do you offer nutrition guidance?
+                        </span>
+                        <span class="faq-icon transition-transform duration-300 text-2xl">▾</span>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 px-6">
+                        <p class="pb-5 text-gray-600">
+                            Yes. We provide nutrition plans and general guidance tailored to your fitness goals and
+                            lifestyle.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --X -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-bg-white">
+        <div class="container">
+            <div class="section-header fade">
+                <span
+                    class="inline-block px-8 py-2 rounded-full bg-orange-500/10 text-orange-500 text-sm font-semibold capitalize mb-2.5">
+                    contact
+                </span>
+                <h2>LET'S START SOLVE YOUR PROBLEM</h2>
+                <p>Ready to take the first step? Fill out the form below and I'll be in touch within 24 hours.</p>
+            </div>
+            <div class="contact-grid fade">
+                <div class="md:contact-left bg-gray-100 p-5 md:p-10 rounded-lg border-2 border-gray-200">
+                    <form action="https://formspree.io/f/mpzvvdzq" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <input type="hidden" name="_subject" value="New Training Session Booking">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                        </div>
+                        <div class="form-group">
+                            <label for="goal">Fitness Goal</label>
+                            <select id="goal" name="goal">
+                                <option value="">Select your primary goal</option>
+                                <option value="weight-loss">Weight Loss</option>
+                                <option value="muscle-gain">Muscle Gain</option>
+                                <option value="strength">Strength Training</option>
+                                <option value="endurance">Endurance</option>
+                                <option value="general">General Fitness</option>
+                            </select>
+                        </div>
+                        <div class="grid grid-cols-2 items-center justify-between gap-5">
+                            <div class="form-group">
+                                <label for="date">Preferred Date</label>
+                                <input type="date" id="date" name="preferred_date" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="time">Preferred Time</label>
+                                <input type="time" id="time" name="preferred_time" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message"
+                                placeholder="Tell me about your fitness journey and what you're looking to achieve..."></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%;">Send
+                            Message</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h3 class="text-2xl mb-5 md:mb-8">Contact Information</h3>
+                    <a href="mailto:contact@eliteplumb.com" class="contact-info-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <span>contact@eliteplumb.com</span>
+                    </a>
+                    <a href="tel:+15551234567" class="contact-info-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                        <span>(555) 123-4567</span>
+                    </a>
+                    <div class="contact-info-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <span>123 Fitness St, Gym City, ST 12345</span>
+                    </div>
+
+                    <div class="pt-5 flex flex-col items-start">
+                        <h3 class="text-2xl mb-5 md:mb-8">Follow My Journey</h3>
+                        <div class="social-links mb-8">
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <svg class="icon-svg" viewBox="0 0 24 24">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Facebook">
+                                <svg class="icon-svg" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="YouTube">
+                                <svg class="icon-svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+                                    </path>
+                                    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div>
+                            <h3 class="text-2xl mb-6">Contact Me Personally On</h3>
+                            <a href="tel:+4733378901" class="social-link whatsapp" aria-label="Whatsapp">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                    fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                                    <path
+                                        d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Random -->
+            <div class="z-0">
+                <!-- Decorative icons -->
+                <img src="assets/img/wrench.png"
+                    class="absolute top-20 md:top-30 left-16 md:left-1/6 w-10 opacity-20 animate-float" alt="" />
+
+                <img src="assets/img/gear.png"
+                    class="absolute bottom-50 md:bottom-30 left-3/4 md:left-1/6 w-14 opacity-20 animate-float-slow"
+                    alt="" />
+
+                <img src="assets/img/pipe.png"
+                    class="absolute top-2/4 md:top-44 right-30 md:right-1/4 w-12 opacity-20 animate-float" alt="" />
+            </div>
+        </div>
+    </section>
+    <!-- X -->
+
+    <!-- Blogs Section -->
+    <section id="blogs" class="py-20 banner" aria-label="Blogs section">
+        <div class="container">
+            <div class="section-header fade">
+                <span
+                    class="inline-block px-8 py-2 rounded-full bg-orange-500/10 text-orange-500 text-sm font-semibold capitalize mb-2.5">
+                    blogs
+                </span>
+                <h2>Our Latest Blogs</h2>
+                <p>See what we will teach and train our clients to get bettter build quickly </p>
+            </div>
+            <!-- Blog Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 items-start justify-between gap-5 fade">
+                <!-- Single Blog -->
+                <div class="group flex flex-col items-center justify-between shadow-lg rounded-lg">
+                    <div class="media">
+                        <img class="duration-300 linear" width="640" height="360" src="assets//img/img1 (4).webp"
+                            alt="Person lifting dumbbell" loading="eager" decoding="async">
+                    </div>
+                    <div class="flex flex-col items-start justify-between p-5 gap-3 ">
+                        <div class="badge text-lg font-semibold">MEN</div>
+                        <h3 class="text-2xl font-bold capitalize">How Group Training Works?</h3>
+                        <p class="text-md font-semibold text-gray-700">Maintain muscle and get results at home with our
+                            minimal equipment program that will
+                            challenge you in as little as 30 minutes.</p>
+                        <a class="cta" href="#" role="button">read more »</a>
+                    </div>
+                </div>
+                <!-- Single Blog -->
+                <div class="group flex flex-col items-center justify-between shadow-lg rounded-lg">
+                    <div class="media">
+                        <img class="duration-300 linear" width="640" height="360" src="assets//img/img1 (2).webp"
+                            alt="Person lifting dumbbell" loading="eager" decoding="async">
+                    </div>
+                    <div class="flex flex-col items-start justify-between p-5 gap-3">
+                        <div class="badge text-lg font-semibold">MEN</div>
+                        <h3 class="text-2xl font-bold capitalize">what is online training</h3>
+                        <p class="text-md font-semibold text-gray-700">Maintain muscle and get results at home with our
+                            minimal equipment program that will
+                            challenge you in as little as 30 minutes.</p>
+                        <a class="cta" href="#" role="button">read more »</a>
+                    </div>
+                </div>
+                <!-- Single Blog -->
+                <div class="group flex flex-col items-center justify-between shadow-lg rounded-lg">
+                    <div class="media">
+                        <img class="duration-300 linear" width="640" height="360" src="assets//img/img1 (3).webp"
+                            alt="Person lifting dumbbell" loading="eager" decoding="async">
+                    </div>
+                    <div class="flex flex-col items-start justify-between p-5 gap-3 ">
+                        <div class="badge text-lg font-semibold">MEN</div>
+                        <h3 class="text-2xl font-bold capitalize">How do we train you?</h3>
+                        <p class="text-md font-semibold text-gray-700">Maintain muscle and get results at home with our
+                            minimal equipment program that will
+                            challenge you in as little as 30 minutes.</p>
+                        <a class="cta" href="#" role="button">read more »</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- X -->
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-300 pt-30">
+        <div class="max-w-7xl mx-auto px-6">
+            <!-- TOP GRID -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-gray-800 text-left">
+                <!-- BRAND -->
+                <div class="text-center">
+                    <h3 class="text-2xl font-extrabold text-white mb-4 uppercase">
+                        elite<span class="text-orange-500">plumb</span>
+                    </h3>
+                    <p class="text-sm leading-relaxed text-gray-400">
+                        Helping you build strength find problem with proper solution through
+                        structured process and real results.
+                    </p>
+                </div>
+                <!-- QUICK LINKS -->
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#about" class="hover:text-orange-500 transition">About</a></li>
+                        <li><a href="#services" class="hover:text-orange-500 transition">Services</a></li>
+                        <li><a href="#reviews" class="hover:text-orange-500 transition">Testimonials</a></li>
+                        <li><a href="#contact" class="hover:text-orange-500 transition">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- SERVICES -->
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Training</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>Personal Training</li>
+                        <li>Group Classes</li>
+                        <li>Home Workouts</li>
+                        <li>Nutrition Guidance</li>
+                    </ul>
+                </div>
+                <!-- CTA / CONTACT -->
+                <div class="text-center">
+                    <h4 class="text-lg font-semibold text-white mb-4">Get Started</h4>
+                    <p class="text-sm text-gray-400 mb-4">
+                        Ready to transform your body and mindset?
+                    </p>
+                    <a href="#contact"
+                        class="inline-block bg-white text-black font-semibold px-6 py-3 rounded-md hover:bg-orange-400 transition">
+                        Request a Service →
+                    </a>
+                </div>
+            </div>
+            <!-- BOTTOM BAR -->
+            <div class="flex flex-col md:flex-row items-center justify-between py-6 text-sm text-gray-500">
+                <p>© 2025 TrainHard. All rights reserved.</p>
+                <div class="flex gap-4 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-orange-500 transition">Privacy Policy</a>
+                    <a href="#" class="hover:text-orange-500 transition">Terms</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- X -->
+
+    <button id="backToTop" aria-label="Back to top"
+        class="z-50 flex items-center justify-center w-12 h-12 rounded-full bg-black text-white shadow-lg opacity-0 pointer-events-none">
+        ↑
+    </button>
+
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollToPlugin.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!-- JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
